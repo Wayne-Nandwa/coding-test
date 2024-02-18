@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E store</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="./checkout.html" class = "checkout">Check out</a>
+            <!-- testing the cart on the home page-->
+            <!-- defining the layout for containing the cart items-->
+            <!-- defining the layout for containing the cart items-->
+            <div class="cart">
+              <h2 class="cart-title"> Your order list is:</h2>
+              <div class="contents">
+                  
+              </div>
+          
+              
+              
+              <!--calculate total-->
+              <div class="total">
+                  <div class="total-calculation">Total</div>
+                  <div class="total-price">Ksh 0</div>
+
+              </div>
+
+              <!--puchase button-->
+              <button type="button" class="buy-btn">Buy</button>
+              <!-- add item remove icon-->
+              
+              <!--to add back button to return to home page .. backbtn-->
+              <input type="image" src="./assets/images/back-button.png" id="back-btn"/>
+
+          </div>
+
+
+        </div>
+    </header>
+
+    <!-- product listing and pricing cards-->
+    <section class="inventory container">
+        <h2 class = "">Products</h2>
+        <!-- the card elements-->
+        <div class = "card-items">
+            <!--cards-->
+            <div class="first card">
+                <img src="./assets/images/image-placeholder.jpg" alt="Item 1"  class = product-img style="width:100%">
+                <h3 class = prod-title>product name</h3>
+                <p class="price">Kshs 3,000</p>
+                <p>Product description</p>
+                <p><button class="add-cart-btn">Add to Cart</button></p>
+              </div>
+
+              <div class="second card">
+                <img src="./assets/images/image-placeholder.jpg" alt="Item 2" class = product-img style="width:100%">
+                <h3 class = prod-title>product name</h3>
+                <p class="price">Kshs 1,000</p>
+                <p>Product description</p>
+                <p><button class="add-cart-btn">Add to Cart</button></p>
+              </div>
+              
+              <div class="third card">
+                <img src="./assets/images/image-placeholder.jpg" alt="Item 3" class = product-img style="width:100%">
+                <h3 class = prod-title>product name</h3>
+                <p class="price">Kshs 2,000</p>
+                <p>Product description</p>
+                <p><button class="add-cart-btn">Add to Cart</button></p>
+              </div>
+              
+              <div class="fourth card">
+                <img src="./assets/images/image-placeholder.jpg" alt="Item 4" class = product-img style="width:100%">
+                <h3 class = prod-title>product name</h3>
+                <p class="price">Kshs 1,500</p>
+                <p>Product description</p>
+                <p><button class="add-cart-btn">Add to Cart</button></p>
+              </div>
+
+              <div class="fifth card">
+                <img src="./assets/images/image-placeholder.jpg" alt="Item 5" class = product-img style="width:100%">
+                <h3 class = prod-title>product name</h3>
+                <p class="price">Kshs 2,000</p>
+                <p>Product description</p>
+                <p><button class="add-cart-btn">Add to Cart</button></p>
+              </div>
+            
+              <div class="sixth card">
+                <img src="./assets/images/image-placeholder.jpg" alt="Item 6" class = product-img style="width:100%">
+                <h3 class = prod-title>product name</h3>
+                <p class="price">Kshs 2,500</p>
+                <p>Product description</p>
+                <p><button class="add-cart-btn">Add to Cart</button></p>
+              </div>
+              
+              
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact Information:</p>
+        <p>Email: eshop@gmail.com</p>
+        <p>Phone: +123456789</p>
+    </footer>
+   <script src = "app.js"></script> 
+</body>
+</html>
+
